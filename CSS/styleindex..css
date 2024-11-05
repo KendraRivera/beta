@@ -1,0 +1,118 @@
+*{box-sizing: border-box ;
+font-family: Arial,helvetica,sans-serif;
+;
+}
+body{margin:0 ;
+font-family:Georgia,helvetica,sans-serif ;
+
+}
+
+
+
+.sidenav {overflow: hidden;
+background-color: #333;
+}
+.sidenav { height: 100%;
+			width: 200px;
+			position:fixed ; 
+			z-index:1 ;
+			top:0 ;
+			left: 0;
+			overflow: hidden;
+			background: linear-gradient(#ffffff,#000fff) ;
+
+		}
+
+			.sidenav a{display:block;
+			color:#000000;
+			padding:10px;
+			text-decoration:none ;}
+
+			.sidenav a:hover{background-color: #bbb;
+								color:#000000; }
+
+			.content{margin-left:200px ;
+					padding:10px;
+ 					
+				}
+
+		
+
+			.footer{background-color: #E1AFD1 ;
+    				padding: 10px;
+          		  text-align: center;	
+          		  background: linear-gradient(#000FFF,#ffffff) ;
+
+          		}			
+          		/**codigo CSS para la seccion de TRAFICADEMERNORES**/
+          		.TRAFICADEMERNORES .content{
+          			background-color: #ffffff;
+          			padding: 10px;
+          			height: 34000;
+					text-align: justify;
+					 background:linear-gradient(#ff00ff,#ffffff);
+
+          		}
+
+
+
+          		/**codigo CSS para la seccion de LA TRATA EN CIFRAS **/
+          		 .LATRATAENCIFRAS .content
+          		{
+                       background:linear-gradient(#70db93,#ffffff);
+                       padding-left: 10PX;
+
+
+		}
+             /**codigo CSS para la seccion de INICIO**/
+             .INICIO .content
+             {
+
+             	 background:linear-gradient(#ffffff,#ff0070);
+             	 padding-left: 10PX;
+             	  height: 0ZZpx;
+
+
+             }
+              
+             /**codigo CSS para la seccion de TRAFICA DE MERNORES **/
+
+          		.TRAFICADEMERNORES .content 
+          		{
+                       background:linear-gradient(#ffffff,#9f5F9F);
+                       padding-left: 10PX;
+                    
+}
+
+.footer{background-color:#364547 ;
+			color:#000000;
+			padding: 10px;
+			text-align: center;
+			   background:linear-gradient(#ffffff,#87cefa);
+
+			}
+
+
+
+  /**codigo CSS para la seccion de ALGUNOS PAISES **/
+
+          		.ALGUNOSPAISES .content
+          		 {
+                       background:linear-gradient(#ffffff,#000000);
+                       padding-left: 10PX;
+}
+
+
+
+
+             
+   
+  /**codigo CSS para la seccion de QUIENES SON LAS VICTIMAS **/
+
+          		.QUIENESSONLASVICTIMAS .content
+          		 {
+                       background:linear-gradient(#f67590,#ffffff);
+                       padding-left: 10PX;
+
+
+                  }
